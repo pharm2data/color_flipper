@@ -17,13 +17,20 @@
         #random {
             background-color: pink;
         }
+        button {
+            border-radius: 9px;
+            width: 200px;
+            height: 100px;
+            margin: 7px;
+        }
     </style>
 </head>
 <body>
     <h3>Color Flipper</h3>
-    <button id="blue">Blue</button>
-    <button id="red">Red</button>
-    <button id="green">Green</button>
-    <button id="random">Random</button>
+    <button id="blue" onclick="setColor('blue')">Blue</button>
+    <button id="red" onclick="setColor('red')">Red</button>
+    <button id="green" onclick="setColor('green')">Green</button>
+    <button id="random"onclick="setColor('pink')">Random</button>
+    <script src="index.js"></script>
 </body>
 </html>
